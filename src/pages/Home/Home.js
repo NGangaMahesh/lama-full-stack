@@ -496,9 +496,6 @@ const Home = () => {
         if (token) {
           fetchProjects();
         }
-        else{
-            window.location.href = '/login';
-        }
       }, [token]);
 
   return (
