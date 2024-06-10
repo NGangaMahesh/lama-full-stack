@@ -1,0 +1,30 @@
+.episode-container-nav{
+    background-color: #F3E8FF;
+    height: 100vh;
+}
+.episode-nav-header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.episode-nav-header>h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    top: 81.84px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 10px;
+}
+.text-upload{
+    font-size: 16px;
+    text-align: left;
+    margin: 20px 0 12px 10px;
+    font-family: 'Roboto';
+    color: #49454F;
+
+}

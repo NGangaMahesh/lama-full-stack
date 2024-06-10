@@ -1,0 +1,49 @@
+.project-main-container{
+    margin-left: 20px;
+}
+.Projects-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.tab-url{
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.tab-upload{
+    color: #7E22CE;
+}
+.project-container{
+    width: 100%;
+}
+.project-text-heading{
+    color: #7E22CE;
+}
+.project-container > ul{
+    margin-top: 20px;
+    padding: 0px;
+    margin-bottom: 80px;
+}
+.project-upload-container{
+    display: flex;
+    width: 250px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.72px solid #cccccc;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.project-upload-container > svg{
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+}
+.popup-input{
+    margin-bottom: 15px;
+}

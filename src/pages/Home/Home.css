@@ -1,0 +1,119 @@
+h1{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 37.74px;
+    font-weight: 800;
+    line-height: 47.56px;
+    text-align: left;
+    color: #7E22CE;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+.home-nav-container>div>svg{
+    width: 64px;
+    height: 64px;
+    top: 60px;
+    left: 1792px;
+    padding: 6px 10.67px 6px 10.67px;
+    gap: 0px;
+    opacity: 0px;
+}
+.logo{
+    width: 52.84px;
+    height: 52.84px;
+    top: 81.84px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+}
+nav>div{
+    display: flex;
+    align-items: center;
+}
+main{
+    text-align: center;
+    margin: 40px 100px 0px 100px;
+    padding: 50px;
+    width: 80%;
+}
+p{
+    font-size: 18px;
+}
+.create-btn{
+    background-color: #211935;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+button>svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.popup-body{
+    display: flex;
+    flex-direction: column;
+}
+.popup-body>label{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.popup-body>input{
+    padding: 10px;
+    border: 1px solid #211935;
+    border-radius: 10px;
+    outline: none;
+}
+.display-projects{
+    width: 100%;  
+}
+.display-projects>div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  main {
+    margin: 40px 100px 0 100px;
+    padding: 50px;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-nav-container {
+    width: 100vw;
+  }
+
+  main {
+    margin: 40px 200px 0 200px;
+  }
+}
